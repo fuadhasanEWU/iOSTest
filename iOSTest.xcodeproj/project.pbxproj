@@ -64,7 +64,6 @@
 		FF5D1295265CD56600D066A4 /* iOSTest */ = {
 			isa = PBXGroup;
 			children = (
-				FF5D12BB265D787D00D066A4 /* View */,
 				FF5D12B4265CDBCE00D066A4 /* Service */,
 				FF5D12AD265CDBA400D066A4 /* Helper */,
 				FF5D12AC265CDA5800D066A4 /* Model */,
@@ -110,13 +109,6 @@
 				FF5D12B5265CDBFB00D066A4 /* Service.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		FF5D12BB265D787D00D066A4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
