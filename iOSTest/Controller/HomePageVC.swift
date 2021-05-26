@@ -10,6 +10,7 @@ import UIKit
 class HomePageVC: UIViewController {
     
     
+    let label = UILabel(text: "Ok Working fine", font: .systemFont(ofSize: 15), textColor: .black, textAlignment: .left, numberOfLines: 1)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,10 +18,6 @@ class HomePageVC: UIViewController {
         self.view.backgroundColor = .white
         
         self.navigationItem.title = "Home"
-        self.presentAlert(withTitle: "Success", message: "Easy Man")
-        
-        
-        //postRequest()
         
     }
     
@@ -38,4 +35,13 @@ class HomePageVC: UIViewController {
     
     
 }
+
+extension HomePageVC : UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+}
+
 
